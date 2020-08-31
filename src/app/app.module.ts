@@ -15,6 +15,7 @@ import { CallingEventsComponent } from './examples/calling-events/calling-events
 import { UsingApiCallsComponent } from './examples/using-api-calls/using-api-calls.component';
 import { UpdatingDataComponent } from './examples/updating-data/updating-data.component';
 import { CustomizingToolbarComponent } from './examples/customizing-toolbar/customizing-toolbar.component';
+import { CustomizingGridComponent } from './examples/customizing-grid/customizing-grid.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CustomizingToolbarComponent } from './examples/customizing-toolbar/cust
     CallingEventsComponent,
     UsingApiCallsComponent,
     UpdatingDataComponent,
-    CustomizingToolbarComponent
+    CustomizingToolbarComponent,
+    CustomizingGridComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatTabsModule, FlexmonsterPivotModule, AppRoutingModule

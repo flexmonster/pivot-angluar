@@ -6,6 +6,7 @@ import { CallingEventsComponent } from './examples/calling-events/calling-events
 import { UsingApiCallsComponent } from './examples/using-api-calls/using-api-calls.component';
 import { UpdatingDataComponent } from './examples/updating-data/updating-data.component';
 import { CustomizingToolbarComponent } from './examples/customizing-toolbar/customizing-toolbar.component';
+import { CustomizingGridComponent } from './examples/customizing-grid/customizing-grid.component';
 
 const appRoutes: Routes = [
     { path: 'pivot-table-demo', component: PivoTableDemoComponent },
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
     { path: 'using-api-calls', component: UsingApiCallsComponent },
     { path: 'updating-data', component: UpdatingDataComponent },
     { path: 'customizing-toolbar', component: CustomizingToolbarComponent },
+    { path: 'customizing-grid', component: CustomizingGridComponent },
     { path: 'highcharts', component: HighchartsComponent },
     { path: '**', redirectTo: 'pivot-table-demo' }
 ];
