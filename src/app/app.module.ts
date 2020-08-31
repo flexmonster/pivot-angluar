@@ -14,6 +14,7 @@ import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-de
 import { CallingEventsComponent } from './examples/calling-events/calling-events.component';
 import { UsingApiCallsComponent } from './examples/using-api-calls/using-api-calls.component';
 import { UpdatingDataComponent } from './examples/updating-data/updating-data.component';
+import { CustomizingToolbarComponent } from './examples/customizing-toolbar/customizing-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { UpdatingDataComponent } from './examples/updating-data/updating-data.co
     PivoTableDemoComponent,
     CallingEventsComponent,
     UsingApiCallsComponent,
-    UpdatingDataComponent
+    UpdatingDataComponent,
+    CustomizingToolbarComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatTabsModule, FlexmonsterPivotModule, AppRoutingModule
