@@ -8,13 +8,19 @@ import { TabsComponent } from './tabs/tabs.component';
 import { HomeComponent } from './home/home.component';
 import { HighchartsComponent } from './highcharts/highcharts.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TopMenuComponent } from './common/top-menu/top-menu.component';
+import { SideMenuComponent } from './common/side-menu/side-menu.component';
+import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TabsComponent,
     HomeComponent,
-    HighchartsComponent
+    HighchartsComponent,
+    TopMenuComponent,
+    SideMenuComponent,
+    PivoTableDemoComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatTabsModule, FlexmonsterPivotModule, AppRoutingModule

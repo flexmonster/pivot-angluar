@@ -1,12 +1,12 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
 import { HighchartsComponent } from './highcharts/highcharts.component';
+import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-demo.component';
 
 const appRoutes: Routes = [
-    { path: 'home', component: HomeComponent },
+    { path: 'pivot-table-demo', component: PivoTableDemoComponent },
     { path: 'highcharts', component: HighchartsComponent },
-    { path: '**', redirectTo: 'home' }
+    { path: '**', redirectTo: 'pivot-table-demo' }
 ];
 
 @NgModule({

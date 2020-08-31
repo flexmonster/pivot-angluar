@@ -1,28 +1,48 @@
-.button-container{
-  width: 100%;
-  text-align: center;
+.wrap {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.route-button {
-  border: 2px solid #df3800;
-  background: #fff;
-  color: #df3800;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 5px;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  font-weight: normal;
-  padding: 10px 10px;
-  font-size: 14px;
-  line-height: 14px;
+
+.side-menu-wrap {
+    background: #fff;
+    position: relative;
+    display: flex;
 }
-.route-button:hover, .route-button:focus {
-  border: 2px solid #df3800;
-  background: #df3800;
-  color: #fff;
+
+.button-red {
+    border: 2px solid #df3800;
+    background: #fff;
+    color: #df3800;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 5px 5px 5px 0;
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: normal;
+    padding: 10px 10px;
+    font-size: 14px;
 }
-.route-button:focus {
-  outline: none;
+
+.button-red:hover,
+.button-red:focus {
+    border: 2px solid #df3800;
+    background: #df3800;
+    color: #fff;
+}
+
+.button-red:focus {
+    outline: none;
+}
+
+.pivot-example-container {
+    float: left;
+    width: 75%;
+    min-width: 605px;
+    padding: 30px 40px;
+    background: #fff;
+    padding-top: 0;
 }
