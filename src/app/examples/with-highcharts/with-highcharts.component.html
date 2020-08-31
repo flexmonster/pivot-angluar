@@ -1,0 +1,11 @@
+<h3 class="page-title">
+    How to <a target="_blank" href="https://www.flexmonster.com/doc/integration-with-highcharts/">integrate with
+        Highcharts</a> example
+</h3>
+
+<fm-pivot #pivot [toolbar]="true" [report]="'https://cdn.flexmonster.com/reports/report.json'"
+    [licenseKey]="'Z7D8-XFJB2G-105P6L-642D4W-5E2G39-5D285Y-6B3B1F-1L6Y0P-0Q'"
+    (reportcomplete)="onReportComplete()">
+</fm-pivot>
+
+<div id="highcharts-container"></div>
