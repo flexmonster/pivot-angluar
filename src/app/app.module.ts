@@ -12,6 +12,7 @@ import { TopMenuComponent } from './common/top-menu/top-menu.component';
 import { SideMenuComponent } from './common/side-menu/side-menu.component';
 import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-demo.component';
 import { CallingEventsComponent } from './examples/calling-events/calling-events.component';
+import { UsingApiCallsComponent } from './examples/using-api-calls/using-api-calls.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CallingEventsComponent } from './examples/calling-events/calling-events
     TopMenuComponent,
     SideMenuComponent,
     PivoTableDemoComponent,
-    CallingEventsComponent
+    CallingEventsComponent,
+    UsingApiCallsComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatTabsModule, FlexmonsterPivotModule, AppRoutingModule

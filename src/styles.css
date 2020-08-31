@@ -23,6 +23,10 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .page-title {
     margin-top: 0;
     margin-bottom: 18px;
