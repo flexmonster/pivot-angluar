@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { TopMenuComponent } from './common/top-menu/top-menu.component';
 import { SideMenuComponent } from './common/side-menu/side-menu.component';
 import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-demo.component';
+import { CallingEventsComponent } from './examples/calling-events/calling-events.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PivoTableDemoComponent } from './examples/pivo-table-demo/pivo-table-de
     HighchartsComponent,
     TopMenuComponent,
     SideMenuComponent,
-    PivoTableDemoComponent
+    PivoTableDemoComponent,
+    CallingEventsComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatTabsModule, FlexmonsterPivotModule, AppRoutingModule
